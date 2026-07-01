@@ -1,0 +1,15 @@
+# environments
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# python
+__pycache__/
+*.pyc
+
+# system
+.DS_Store
+desktop.ini
