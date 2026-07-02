@@ -14,7 +14,7 @@ services:
       #private:
       #- WEBHOOK_URL=http://localhost:5678/ 
 
-      #public:
+      #public(ngrok):
       - WEBHOOK_URL=https://catkinate-craftiest-cara.ngrok-free.dev #if you get another url on ngrok copy it to here instead
 
 volumes:
